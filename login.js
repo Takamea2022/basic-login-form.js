@@ -19,7 +19,7 @@ document.getElementById('registrationForm').addEventListener('submit', (event) =
   event.preventDefault();
   const username = document.getElementById('regUsername').value;
   const email = document.getElementById('regEmail').value;
-  const password = document.getElementById('rePassword').value;
+  const password = document.getElementById('regPassword').value;
   const confirmPassword = document.getElementById('regConfirmPassword').value;
      // Check if all fields are filled
     if (username && email && password && confirmPassword) {
